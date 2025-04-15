@@ -1,4 +1,3 @@
-// Data siswa
 const siswa = [
   { nama: "Andi", nilai: 77 },
   { nama: "Budi", nilai: 88 },
@@ -8,7 +7,6 @@ const siswa = [
   { nama: "Adi", nilai: 90 }
 ];
 
-// Fungsi penilaian sederhana
 function cekNilai(nilai) {
   switch(true) {
     case nilai >= 90: return "A";
@@ -19,7 +17,6 @@ function cekNilai(nilai) {
   }
 }
 
-// Tampilkan hasil semua siswa
 console.log("Daftar Nilai Siswa:");
 siswa.forEach(s => {
   console.log(`
